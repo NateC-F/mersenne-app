@@ -3,14 +3,7 @@ from flask_cors import CORS
 from sympy import factorint
 
 app = Flask(__name__)
-CORS(app, resources={
-    r"/api/*": {
-        "origins": [
-            "http://localhost:5173",
-            "https://mersenne-app.vercel.app"
-        ]
-    }
-})
+CORS(app)
 
 # Convert number to base-g
 def to_base_g(num, base):
