@@ -15,7 +15,7 @@ function App() {
     setResults([]);
 
     try {
-      const res = await fetch("https://mersenne-backend.onrender.com/api/mersenne", {
+      const res = await fetch("https://mersenne-app.onrender.com", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
