@@ -63,7 +63,7 @@ function App() {
       {results.map((r) => (
         <div key={r.n} style={styles.block}>
 
-          <p><b>Gn = {r.value}</b></p>
+          <p><b>G{r.n} = {r.value}</b></p>
           <p>In base {base}: {r.base_value}</p>
 
           <p><b>Factors:</b></p>
