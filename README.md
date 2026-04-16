@@ -1,0 +1,1 @@
+This is to generate generalized mersenne numbers. The formula for generalized mersenne numbers is (g^n - 1)/(g-1). Here is a link to the active website https://mersenne-app.vercel.app/ I have also added an .exe incase the website were to ever go down. The .exe is built using python
